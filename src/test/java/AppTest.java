@@ -18,16 +18,16 @@ public class AppTest extends FluentTest{
   // @Test
   // public void rootTest(){
   //   goTo("http://localhost:4567/");
-  //   assertThat(pageSource()).contains("Play Rock Paper Scissors!!");
+  //   assertThat(pageSource()).contains("");
   // }
   //
   // @Test
   // public void doesRockBeatPaper(){
   //   goTo("http://localhost:4567/");
-  //   fill("#playerOne").with("rock");
-  //   fill("#playerTwo").with("paper");
+  //   fill("#").with("");
+  //   fill("#").with("");
   //   submit(".btn");
-  //   assertThat(pageSource()).contains("Player two, you win!");
+  //   assertThat(pageSource()).contains("");
   // }
 
 }
