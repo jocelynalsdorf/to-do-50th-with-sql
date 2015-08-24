@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CategoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-08-24T22:52:48" hostname="josss-MacBook-Pro.local" time="0.832">
+<testsuite name="CategoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-24T23:09:29" hostname="josss-MacBook-Pro.local" time="0.523">
   <properties/>
-  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="CategoryTest" time="0.646"/>
-  <testcase name="all_emptyAtFirst" classname="CategoryTest" time="0.043"/>
-  <testcase name="find_findCategoryInDatabase_true" classname="CategoryTest" time="0.123"/>
-  <testcase name="save_savesIntoDatabase_true" classname="CategoryTest" time="0.02"/>
+  <testcase name="getTasks_retrievesALlTasksFromDatabase_tasksList" classname="CategoryTest" time="0.453"/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="CategoryTest" time="0.007"/>
+  <testcase name="all_emptyAtFirst" classname="CategoryTest" time="0.015"/>
+  <testcase name="find_findCategoryInDatabase_true" classname="CategoryTest" time="0.021"/>
+  <testcase name="save_savesIntoDatabase_true" classname="CategoryTest" time="0.026"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-08-24T22:52:49" hostname="josss-MacBook-Pro.local" time="0.024">
+<testsuite name="WordCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-08-24T23:09:30" hostname="josss-MacBook-Pro.local" time="0.024">
   <properties/>
-  <testcase name="getChanged_ReturnsnumberOfRepeatedWordsRegardlessOfCase_2" classname="WordCheckerTest" time="0.024"/>
+  <testcase name="getChanged_ReturnsnumberOfRepeatedWordsRegardlessOfCase_2" classname="WordCheckerTest" time="0.023"/>
   <testcase name="getChanged_ReturnsnumberOfRepeatedWords_2" classname="WordCheckerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
