@@ -1,0 +1,15 @@
+<<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h1 class="well">Yay! more Todo!!</h1>
+  
+    
+    #foreach($category in $categories)
+    <h3><a href="/categories/$category.getId()">$category.getName()</a><hr></h3>
+    #end
+    <br>
+    <p><a href="/categories/new">Add a new category<a></p> 
+    
+  </div>
+  <div class="col-md-2"></div>
+</div>
