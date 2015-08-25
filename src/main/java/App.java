@@ -33,10 +33,9 @@ public class App {
       String name = request.queryParams("name");
       Category newCategory = new Category(name);
       newCategory.save();
-      model.put("Category", newCategory);
-      //only put .all if you want to return directly from post route to index with no reload/refresh
-     // model.put("words", Word.all());
-      model.put("template", "templates/success.vtl");
+      //only need to put .all in model if you want to return directly from post route to index with no reload/refresh
+      model.put("categories", Category.all());
+      model.put("template", "templates/index.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
@@ -61,9 +60,10 @@ public class App {
       String description = request.queryParams("description");
       Task newTask = new Task(description, category.getId());
       newTask.save();
-      //category.getTasks();
+  
+      //put in model only to persist it for immediate return to page; if go to success(reload) then its not needed
       model.put("category",category);
-      model.put("template", "templates/success.vtl");
+      model.put("template", "templates/category.vtl");
       return new ModelAndView(model, layout);
    }, new VelocityTemplateEngine());
 
